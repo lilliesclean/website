@@ -43,34 +43,61 @@
 
       <!-- <h1 class="logo"><a href="index.html">Lillies</a></h1> -->
       <!-- image logo -->
-      <a href="index.html" class="logo"><img src="assets/img/logo.jpg" alt="logo" class="img-fluid"> Lillies</a>
+      <a href="index.html" class="logo"><img src="assets/img/logo.jpg" alt="logo" class="img-fluid"> <span
+          style="color: white;font-style: italic;text-transform: none">Lillies</span></a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Works</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <!-- <li><a class="nav-link scrollto" href="#portfolio">portfolio</a></li> -->
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="#services">Our Services</a></li>
+              <li class="dropdown"><a href="#portfolio" onclick="dropDownFn('100')"><span>Cleaning Services</span> <i
+                    class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('100')">Deep Cleaning</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('100')">Floor Cleaning</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('100')">Carpet Cleaning</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('100')">Curtain Cleaning</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('100')">Floor Polishing</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('100')">Maid Services</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('100')">Mattress Cleaning</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('100')">Pool Cleaning</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('100')">Sofa Cleaning</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li class="dropdown"><a href="#portfolio" onclick="dropDownFn('200')"><span>Pest Control</span> <i
+                    class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#portfolio" onclick="dropDownFn('200')">Ant Control</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('200')">Best Bugs Treatment</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('200')">Cockroach Control</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('200')">Dust Mites Control</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('200')">Flies Control</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('200')">Pest Control</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('200')">Rat Control</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('200')">Spider Control</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#portfolio" onclick="dropDownFn('300')"><span>Maintenance Services</span> <i
+                    class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#portfolio" onclick="dropDownFn('300')">Electrician Services</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('300')">Plumbing Services</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('300')">Painting Services</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('300')">Furniture Fixing</a></li>
+                  <li><a href="#portfolio" onclick="dropDownFn('300')">Air Condition</a></li>
+                </ul>
+              </li>
+              <li><a href="#portfolio" onclick="dropDownFn('400')">Facade Services</a></li>
             </ul>
-          </li> -->
+          </li>
+          <li><a class="nav-link scrollto " href="#clients">Projects</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="mailto:info@lilliesgeneralmaintenanceuae.com">Book Now!</a></li>
+          <li><a class="getstarted scrollto" href="tel:+97125566657">Book Now</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -91,8 +118,9 @@
           <div class="carousel-item active" style="background: url(assets/img/slide/slide-1.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Our Business</h2>
-                <p class="animate__animated animate__fadeInUp">Setting A New STANDARD for Cleaning INDUSTRY.</p>
+                <h2 class="animate__animated animate__fadeInDown">Lillies Building Cleaning & General Maintenance Est.
+                </h2>
+                <p class="animate__animated animate__fadeInUp">Setting A New Standard for Cleaning Industry.</p>
                 <div>
                   <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
@@ -105,8 +133,8 @@
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Pest Control</h2>
-                <p class="animate__animated animate__fadeInUp">Get our World-class Pest Control service and Get ride of
-                  all the Insects! We can assure you 100% safety and effectiveness of our pesticides and machines.</p>
+                <p class="animate__animated animate__fadeInUp">With our World-class service we assure you
+                  100% safe and effective Pest Control.</p>
                 <div>
                   <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
@@ -115,7 +143,7 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-3.jpg);">
+          <!-- <div class="carousel-item" style="background: url(assets/img/slide/slide-3.jpg);">
             <div class="carousel-background"><img src="assets/img/slide/slide-3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
@@ -127,10 +155,10 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Slide 4 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-4.jpg);">
+          <!-- <div class="carousel-item" style="background: url(assets/img/slide/slide-4.jpg);">
             <div class="carousel-background"><img src="assets/img/slide/slide-4.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
@@ -142,10 +170,10 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Slide 5 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-5.jpg);">
+          <!-- <div class="carousel-item" style="background: url(assets/img/slide/slide-5.jpg);">
             <div class="carousel-background"><img src="assets/img/slide/slide-5.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
@@ -156,10 +184,10 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Slide 6 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-6.jpg);">
+          <!-- <div class="carousel-item" style="background: url(assets/img/slide/slide-6.jpg);">
             <div class="carousel-background"><img src="assets/img/slide/slide-6.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
@@ -170,10 +198,10 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Slide 7 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-7.jpg);">
+          <!-- <div class="carousel-item" style="background: url(assets/img/slide/slide-7.jpg);">
             <div class="carousel-background"><img src="assets/img/slide/slide-7.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
@@ -184,10 +212,10 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Slide 8 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-8.jpg);">
+          <!-- <div class="carousel-item" style="background: url(assets/img/slide/slide-8.jpg);">
             <div class="carousel-background"><img src="assets/img/slide/slide-8.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
@@ -198,15 +226,16 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Slide 9 -->
           <div class="carousel-item" style="background: url(assets/img/slide/slide-9.jpg);">
             <div class="carousel-background"><img src="assets/img/slide/slide-9.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Grow Your Business</h2>
-                <p class="animate__animated animate__fadeInUp">Setting A New STANDARD for Cleaning INDUSTRY.</p>
+                <h2 class="animate__animated animate__fadeInDown">Your trusted home service in UAE</h2>
+                <p class="animate__animated animate__fadeInUp">Best cleaning service company in abu dhabi by
+                  trusted professionals.</p>
                 <div>
                   <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
@@ -238,7 +267,7 @@
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
-              <h3>Lillies Building Cleaning & General Maintenance Est.</h3>
+              <h3 style='text-align: center'>Lillies Building Cleaning & General Maintenance Est.</h3>
               <p style='text-align: justify'>
                 Lillies Building Cleaning & General Maintenance Est was established in AbuDhabi in the year 2019. We are
                 one of the pioneers in providing Cleaning and General Maintenance Services in Abu Dhabi. We have been
@@ -249,19 +278,19 @@
               </p>
               <div class="row">
                 <div class="col-md-6 icon-box">
-                  <i class="bx bx-receipt"></i>
+                  <i class="bi bi-emoji-smile" style="line-height: 0%;"></i>
                   <h4>Meet Client Expectations</h4>
                 </div>
                 <div class="col-md-6 icon-box">
-                  <i class="bx bx-cube-alt"></i>
+                  <i class="bi bi-list-stars" style="line-height: 0%;"></i>
                   <h4>Ensure Consistent High Cleaning Standards</h4>
                 </div>
                 <div class="col-md-6 icon-box">
-                  <i class="bx bx-images"></i>
+                  <i class="bi bi-clock" style="line-height: 0%;"></i>
                   <h4>Available to perform your task 24/7 at your convenience</h4>
                 </div>
                 <div class="col-md-6 icon-box">
-                  <i class="bx bx-shield"></i>
+                  <i class="bi bi-wallet2" style="line-height: 0%;"></i>
                   <h4>No Hidden Cost</h4>
                 </div>
               </div>
@@ -335,7 +364,7 @@
             <!-- <li>Iranian School Abu Dhabi</li> -->
           </div>
 
-          <div class="col-lg-4 col-md-5 col-8 d-flex align-items-center justify-content-center">
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
             <!-- <li>Al Bashir School Musaffah</li> -->
           </div>
@@ -347,6 +376,11 @@
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <!-- <li>Sizdel Medical Centre Abu Dhabi</li> -->
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <i class="bi bi-plus-circle-dotted" style="line-height: 0%;"></i>
             <!-- <li>Sizdel Medical Centre Abu Dhabi</li> -->
           </div>
 
@@ -367,28 +401,28 @@
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <div class="icon"><i class="bi bi-building"></i></div>
             <h4 class="title"><a href="">Building Maintenance</a></h4>
             <p class="description">Complete maintenance in the mechanical and electrical areas. Air conditioning system
               cleaning services.
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+            <div class="icon"><i class="bi bi-brightness-alt-high-fill"></i></div>
             <h4 class="title"><a href="">Building Cleaning</a></h4>
             <p class="description">Reliable, cost-effective cleaning service as per your business needs. Professional
               attention with the cutting-edge cleaning equipment at your service.
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <div class="icon"><i class="bi bi-bug-fill"></i></div>
             <h4 class="title"><a href="">Pest Control</a></h4>
             <p class="description">Get all the pest-related solutions with longer-lasting & effective results. We
               guarantee the quality and safety of our services.
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <div class="icon"><i class="bi bi-mask"></i></div>
             <h4 class="title"><a href="">Sanitization Services</a></h4>
             <p class="description">We provides professional sanitizing and disinfecting services anywhere in Abu Dhabi.
               Disinfection of entire premises with hospital-grade disinfectants at
@@ -396,7 +430,7 @@
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <div class="icon"><i class="bi bi-people-fill"></i></div>
             <h4 class="title"><a href="">Manpower / Labour Supply</a></h4>
             <p class="description">Best manpower supply services for your business.
               Provides skilled manpower supply at negotiable hourly or monthly rates which is the best in the
@@ -404,7 +438,7 @@
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+            <div class="icon"><i class="bi bi-shop-window"></i></div>
             <h4 class="title"><a href="">Building Exterior & Interior Facade</a></h4>
             <p class="description">We offer facade cleaning service for every type of business including showrooms,
               offices, factories, schools, and commercial complexes.
@@ -428,27 +462,27 @@
 
         <div class="row">
 
-          <div class="col-lg-4">
+          <div class="col-lg-4" style='text-align: center'>
             <div class="box">
-              <span>01</span>
+              <span><i class="bi bi-emoji-smile"></i></span>
               <h4>100% Satisfaction</h4>
               <p>A money-back guarantee, also known as a satisfaction guarantee, if a buyer is not satisfied with a
                 product or service.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="col-lg-4 mt-4 mt-lg-0" style='text-align: center'>
             <div class="box">
-              <span>02</span>
+              <span><i class="bi bi-tree"></i></span>
               <h4>Eco-Friendly Cleaning Products</h4>
               <p>Because indoor pollution rates are typically higher than outdoor pollution rates, we take dust removal
                 seriously.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="col-lg-4 mt-4 mt-lg-0" style='text-align: center'>
             <div class="box">
-              <span>03</span>
+              <span><i class="bi bi-wallet2"></i></span>
               <h4>Cost Effective</h4>
               <p>We have the lowest cleaning rates in Abu Dhabi. Pricing that suits your budget with a 100% transparent
                 pricing policy.</p>
@@ -474,10 +508,12 @@
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Residential Cleaning</li>
-              <li data-filter=".filter-card">Commercial Cleaning</li>
-              <li data-filter=".filter-web">Sanitization</li>
+              <!-- <li data-filter="*">All</li> -->
+              <li data-filter=".filter-app" class="filter-active" id="100">Cleaning Services</li>
+              <li data-filter=".filter-card" id="200">Pest Control</li>
+              <li data-filter=".filter-web" id="300">Maintenance Services</li>
+              <li data-filter=".filter-facade" id="400">Facade Services</li>
+              <li data-filter=".filter-sanitize" id="400">Sanitize Services</li>
             </ul>
           </div>
         </div>
@@ -486,12 +522,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Residential</h4>
-                <p>Apartment Cleaning</p>
+                <h4>Cleaning Services</h4>
+                <p>Carpet Cleaning</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                  <a href="assets/img/portfolio/portfolio-1.png" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
                 </div>
               </div>
@@ -502,8 +538,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Sanitization</h4>
-                <p>Sofa Cleaning</p>
+                <h4>Maintenance Services</h4>
+                <p>Painting Services</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
@@ -514,12 +550,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Residential</h4>
-                <p>House Cleaning</p>
+                <h4>Cleaning Services</h4>
+                <p>Deep Cleaning</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                  <a href="assets/img/portfolio/portfolio-3.png" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
                 </div>
               </div>
@@ -530,8 +566,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Commercial</h4>
-                <p>Office Cleaning</p>
+                <h4>Pest Control</h4>
+                <p>Cockroach Eradication</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
@@ -544,8 +580,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Sanitization</h4>
-                <p>Office Sanitization</p>
+                <h4>Maintenance Services</h4>
+                <p>AC Maintenance</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
@@ -554,14 +590,98 @@
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sanitize">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-10.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sanitization Services</h4>
+                <p>Home Sanitization</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-10.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sanitize">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-11.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sanitization Services</h4>
+                <p>Mattress Sanitization</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-11.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sanitize">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-12.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sanitization Services</h4>
+                <p>Corona Sanitization</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-12.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-facade">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-13.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Facade Services</h4>
+                <p>Risky Cleaning</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-13.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-facade">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-14.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Facade Services</h4>
+                <p>Interior Cleaning</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-14.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-facade">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-15.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Facade Services</h4>
+                <p>Glass Cleaning</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-15.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-6.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Residential</h4>
-                <p>Kitchen Cleaning</p>
+                <h4>Cleaning Services</h4>
+                <p>Pool Cleaning</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                  <a href="assets/img/portfolio/portfolio-6.jpeg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
                 </div>
               </div>
@@ -570,12 +690,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-7.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Commercial</h4>
-                <p>Latest Tech</p>
+                <h4>Pest Control</h4>
+                <p>Hospital Grade Pest Eradication</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                  <a href="assets/img/portfolio/portfolio-7.png" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
                 </div>
               </div>
@@ -586,8 +706,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Commercial</h4>
-                <p>Renovation Cleaning</p>
+                <h4>Pest Control</h4>
+                <p>Rat Eradication</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
@@ -600,8 +720,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Sanitization</h4>
-                <p>Pest Control</p>
+                <h4>Maintenance Services</h4>
+                <p>Plumbing Services</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
@@ -638,10 +758,12 @@
                   <h4>Feedback</h4>
                   <span>Team Social N/W</span>
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                    <a href="http://Facebook.com/lilliesgeneralmaintenanceuae" target="_blank"><i
+                        class="bi bi-facebook"></i></a>
+                    <a href="http://Instagram.com/lilliesgeneralmaintenance" target="_blank"><i
+                        class="bi bi-instagram"></i></a>
+                    <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
                   </div>
                 </div>
               </div>
@@ -802,7 +924,7 @@
         </div>
         <div>
           <iframe style="border:0; width: 100%; height: 270px;"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.770150418388!2d54.36634171499565!3d24.493419584228366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e66673f0fdad3%3A0xc0e9b602db8a17f4!2sHamdan%20Bin%20Mohammed%20St%20-%20Abu%20Dhabi%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1614110146593!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d907.7353563416765!2d54.3598694292246!3d24.48748629901448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDI5JzE1LjAiTiA1NMKwMjEnMzcuNSJF!5e0!3m2!1sen!2sin!4v1614178392626!5m2!1sen!2sin"
             loading="lazy" frameborder="0" allowfullscreen></iframe>
         </div>
 
@@ -859,11 +981,13 @@
                   href="mailto:info@lilliesgeneralmaintenanceuae.com">info@lilliesgeneralmaintenanceuae.com</a><br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+                <a href="http://Facebook.com/lilliesgeneralmaintenanceuae" target="_blank" class="facebook"><i
+                    class="bx bxl-facebook"></i></a>
+                <a href="http://Instagram.com/lilliesgeneralmaintenance" target="_blank" class="instagram"><i
+                    class="bx bxl-instagram"></i></a>
+                <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
               </div>
             </div>
           </div>
@@ -915,6 +1039,13 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
+
+  <script>
+    function dropDownFn(args) {
+      console.log(args);
+      document.getElementById(args).click();
+    }
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
